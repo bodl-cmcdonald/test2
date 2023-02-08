@@ -1,0 +1,122 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://bodl-cmcdonald.github.io/test2/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Photos from Skiddaw hike",
+  "metadata" : [ {
+    "label" : "Author",
+    "value" : "Callum McDonald"
+  }, {
+    "label" : "Date",
+    "value" : "2019-11-30"
+  }, {
+    "label" : "Location",
+    "value" : "England, Cumbria, Skiddaw"
+  } ],
+  "description" : [ {
+    "@value" : "Photos taken during a hike from Long Side to the summit of Skiddaw, Lake District",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Copyright Callum McDonald but released under CC BY-NC-SA 4.0 license.",
+  "sequences" : [ {
+    "@id" : "http://b3ef2579-6de8-4c37-8856-a4dfc2cc3bd8",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "viewingHint" : "paged",
+    "canvases" : [ {
+      "@id" : "http://7c2eb84a-23c1-42c6-94d6-4a3fd73a3e55",
+      "@type" : "sc:Canvas",
+      "label" : "View from Ullock Pike",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://544c29b0-a286-468b-8f49-7c6e0d2de5c5",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/image00001_202302/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/image00001_202302",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://7c2eb84a-23c1-42c6-94d6-4a3fd73a3e55"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://4c2f34ac-c1a4-413a-9696-5b54a5625402",
+      "@type" : "sc:Canvas",
+      "label" : "View of Skiddaw",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://213d05eb-8a6b-454c-84fa-c518d399b53a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/20191130-141019354-i-os-copy/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/20191130-141019354-i-os-copy",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://4c2f34ac-c1a4-413a-9696-5b54a5625402"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://f7821aa7-105b-431c-8054-d4aecb685d16",
+      "@type" : "sc:Canvas",
+      "label" : "View of Ullock Pike",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://ff1719c7-dd05-4a5b-b991-4443671ecf8a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/20191130-132725007-i-os-copy/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/20191130-132725007-i-os-copy",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://f7821aa7-105b-431c-8054-d4aecb685d16"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://7c2eb84a-23c1-42c6-94d6-4a3fd73a3e55" ]
+  } ]
+}
