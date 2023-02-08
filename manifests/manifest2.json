@@ -17,7 +17,7 @@
     "@value" : "Photos taken during a hike from High Side to the summit of Skiddaw, Lake District",
     "@language" : "en"
   } ],
-  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
   "attribution" : "Copyright Callum McDonald but released under CC BY-NC-SA 4.0 license.",
   "sequences" : [ {
     "@id" : "http://b3ef2579-6de8-4c37-8856-a4dfc2cc3bd8",
